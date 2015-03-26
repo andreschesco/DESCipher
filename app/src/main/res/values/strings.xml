@@ -1,7 +1,18 @@
 <resources>
-    <string name="app_name">DES</string>
+    <string name="app_name">Criptografía</string>
 
-    <string name="title">Criptografia</string>
+    <string name="title">Criptografía</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_des">DESActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aes">AESActivity</string>
+
+    <string name="description">Comunicación en la presencia de adversarios.</string>
+    <string name="input_text">Ingrese el texto que quiere cifrar.</string>
+    <string name="method_cipher">Elija que metodo decea usar para cifrar:</string>
+    <string name="cipher">Cifrar</string>
+    <string name="no_selected">Debe elegir un metodo de cifrado.</string>
+    <string name="no_text">Debe ingresar el texto a cifrar.</string>
+
 </resources>

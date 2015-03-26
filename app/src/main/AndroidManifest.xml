@@ -20,6 +20,10 @@
             android:name=".DESActivity"
             android:label="@string/title_activity_des" >
         </activity>
+        <activity
+            android:name=".AESActivity"
+            android:label="@string/title_activity_aes" >
+        </activity>
     </application>
 
 </manifest>
