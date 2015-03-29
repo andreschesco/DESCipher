@@ -25,4 +25,14 @@
     <string name="title_conceptsactivity_list">Items</string>
     <string name="title_conceptsactivity_detail">ConceptsActivity Detail</string>
     <string name="title_activity_concepts">ConceptsActivity</string>
+    <string name="description_cifrar">cifrar es un procedimiento que utiliza un algoritmo con cierta llave (llave de cifrado) que transforma un mensaje, a tal forma que sea incomprensible o, al menos, difícil de comprender a toda persona que no tenga la llave secreta (llave de descifrado) del algoritmo.</string>
+    <string name="description_descifrar">Descifrar es el proceso de convertir el texto cifrado en el texto en claro.</string>
+    <string name="description_llave">Clave criptográfica es una pieza de información que controla la operación de un algoritmo de criptografía, con esta se especifica la transformación del texto plano en texto cifrado, o viceversa.</string>
+    <string name="description_textcip">Texto cifrado es aquel texto que ha sido cifrado con algún algoritmo determinado.</string>
+    <string name="description_textplain">Texto plano es el mensaje inicial aquel que se quiere hacer ininteligibles a receptores no autorizados.</string>
+    <string name="description_block_Ciphers">Cifrado por bloqueses un esquema de cifrado de clave simétrica que rompe el mensaje de texto plano en cadenas (bloques) de una longitud t fijo sobre un alfabeto A y encripta un bloque a la vez. Hay tres clases de cifrado por bloques: \n Sustitución \n Transposición \n Producto</string>
+    <string name="description_Substitution">Sustituye los símbolos (o grupos de símbolos) por otros símbolos o grupos de símbolos.</string>
+    <string name="description_Transposition">Simplemente permuta los símbolos en un bloque.</string>
+    <string name="description_Product">Es un compuesto de cifrados de sustitución y transposición.</string>
+    <string name="next">Siguiente</string>
 </resources>
