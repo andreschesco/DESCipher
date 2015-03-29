@@ -22,43 +22,58 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text="@string/text_main"
-        android:textSize="22sp" />
+        android:text="@string/description"
+        android:textSize="18sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/ciphertext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_seleccion_main"
-        android:textSize="22sp"
-        android:layout_marginTop="65dp"
-         />
+        android:hint="@string/input_text"
+        android:lines="5" />
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/method_cipher"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="65dp"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <RadioButton
             android:id="@+id/rbtn_des"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="40dp"
-            android:onClick="learnClick"
-            android:text="@string/text_learn" />
+            android:layout_marginRight="30dp"
+            android:onClick="desClick"
+            android:text="DES" />
 
-        <Button
+        <RadioButton
             android:id="@+id/rbtn_aes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="cipherClick"
-            android:text="@string/cipher" />
+            android:onClick="aesClick"
+            android:text="AES" />
     </LinearLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cipher"
+        android:layout_marginTop="20dp"
+        android:text="@string/cipher" />
+
+    <TextView
+        android:id="@+id/plaintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:lines="5" />
 
 
 </LinearLayout>

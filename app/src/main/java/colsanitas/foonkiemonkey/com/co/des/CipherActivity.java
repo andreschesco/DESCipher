@@ -12,7 +12,8 @@ import android.widget.Toast;
 import java.io.UnsupportedEncodingException;
 
 
-public class MainActivity extends ActionBarActivity {
+public class CipherActivity extends ActionBarActivity {
+
 
     private TextView plainText;
     private EditText cipherText;
@@ -23,10 +24,10 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        plainText = (TextView) findViewById(R.id.plaintext);
-//        cipherText = (EditText) findViewById(R.id.ciphertext);
-//        desBtn = (RadioButton) findViewById(R.id.rbtn_des);
-//        aesBtn = (RadioButton) findViewById(R.id.rbtn_aes);
+        plainText = (TextView) findViewById(R.id.plaintext);
+        cipherText = (EditText) findViewById(R.id.ciphertext);
+        desBtn = (RadioButton) findViewById(R.id.rbtn_des);
+        aesBtn = (RadioButton) findViewById(R.id.rbtn_aes);
 
 
     }
@@ -59,14 +60,17 @@ public class MainActivity extends ActionBarActivity {
 //        plainText.setText(cipherString);
     }
 
-    public void learnClick(View v) {
-        Intent intent = new Intent(this, LearningActivity.class);
-        startActivity(intent);
+    public void desClick(View v) {
+        if (aesBtn.isChecked()) {
+            aesBtn.setChecked(false);
+        }
+
     }
 
-    public void cipherClick(View v) {
-        Intent intent = new Intent(this, CipherActivity.class);
-        startActivity(intent);
+    public void aesClick(View v) {
+        if (desBtn.isChecked()) {
+            desBtn.setChecked(false);
+        }
     }
 
     private String splitString(String cipherString) {
@@ -101,5 +105,4 @@ public class MainActivity extends ActionBarActivity {
 
 
     }
-
 }

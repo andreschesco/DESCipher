@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text="@string/text_main"
+        android:text="@string/text_descrption_learn"
         android:textSize="22sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:text="@string/text_seleccion_main"
         android:textSize="22sp"
         android:layout_marginTop="65dp"
-         />
+        />
 
 
 
@@ -48,15 +48,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
-            android:onClick="learnClick"
-            android:text="@string/text_learn" />
+            android:onClick="conceptsClick"
+            android:text="@string/text_learn_concepts" />
 
         <Button
             android:id="@+id/rbtn_aes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="cipherClick"
-            android:text="@string/cipher" />
+            android:onClick="escapeClick"
+            android:text="@string/text_escape" />
     </LinearLayout>
 
 

@@ -14,5 +14,15 @@
     <string name="cipher">Cifrar</string>
     <string name="no_selected">Debe elegir un metodo de cifrado.</string>
     <string name="no_text">Debe ingresar el texto a cifrar.</string>
-
+    <string name="title_activity_learning">LearningActivity</string>
+    <string name="title_activity_cipher">CipherActivity</string>
+    <string name="text_main">Bienvenido a nuestra aplicación para aprender a cifrar y descifrar utilizando los sistemas de encriptación DES y AES.</string>
+    <string name="text_seleccion_main">Seleccione la actividad que quieres realizar:</string>
+    <string name="text_learn">Aprender</string>
+    <string name="text_descrption_learn">Antes de comenzar necesitas tener varios conceptos básicos sobre la criptografia.</string>
+    <string name="text_learn_concepts">Ver conceptos</string>
+    <string name="text_escape">Saltar</string>
+    <string name="title_conceptsactivity_list">Items</string>
+    <string name="title_conceptsactivity_detail">ConceptsActivity Detail</string>
+    <string name="title_activity_concepts">ConceptsActivity</string>
 </resources>

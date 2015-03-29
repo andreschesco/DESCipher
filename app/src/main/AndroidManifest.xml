@@ -24,6 +24,18 @@
             android:name=".AESActivity"
             android:label="@string/title_activity_aes" >
         </activity>
+        <activity
+            android:name=".LearningActivity"
+            android:label="@string/title_activity_learning" >
+        </activity>
+        <activity
+            android:name=".CipherActivity"
+            android:label="@string/title_activity_cipher" >
+        </activity>
+        <activity
+            android:name=".ConceptsActivity"
+            android:label="@string/title_activity_concepts" >
+        </activity>
     </application>
 
 </manifest>
